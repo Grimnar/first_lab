@@ -3,4 +3,6 @@ install:
  -pip3 install flask
 script:
  -python3 ./flaskapp/some_app.py
- 
+print("Hello world")
+from flask import Flask
+app=Flask(__name__)
